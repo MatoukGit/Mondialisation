@@ -1,1 +1,16 @@
 /* the site of Mondialisation.com*/
+header{
+    border: 1px solid black;
+    background-color:navy;
+    font-size: 1em;
+    text-transform: capitalize;
+    color: white;
+    /*display: flex;*/
+    
+}
+ul{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:5px;
+    align-items: center;
+}
