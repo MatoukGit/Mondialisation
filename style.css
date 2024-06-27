@@ -1,16 +1,45 @@
 /* the site of Mondialisation.com*/
+*{margin: 0;}
 header{
-    border: 1px solid black;
+    border: 1px solid red;
     background-color:navy;
     font-size: 1em;
     text-transform: capitalize;
     color: white;
-    /*display: flex;*/
-    
-}
-ul{ display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom:5px;
     align-items: center;
+    height: 80px;
+    font-size: 0.9em;
+  
+}
+.logo{ margin-left: 30px;
+border: 1px solid white;}
+.monditoplinksleft { border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.monditoplinksleft ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style-type: none;
+  
+}
+li{ margin: 5px;
+border: 1px solid rosybrown;
+padding: 2px;}
+.monditoplinksright{
+    border: 1px solid white;
+}
+.monditoplinksright ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+       
 }
